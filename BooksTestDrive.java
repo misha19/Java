@@ -11,6 +11,9 @@ public class BooksTestDrive {
 	
 	Books[] myBooks = new Books[3];
 	int x= 0 ; 
+	myBooks[0] = new Books();
+	myBooks[1] = new Books(); 
+	myBooks[2] = new Books();
 	
 	myBooks[0].title = "The Grapes of Java"; 
 	myBooks[1].title= "The Java guide to the galaxy";
