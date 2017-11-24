@@ -1,3 +1,13 @@
+/** This program calculated the <b> <ul> BMI </b> </ul> using the inputs
+ * <ul>
+ * <li> weight </li>
+ * <li> height </li>
+ * </ul>
+ * see <a href="http://en.wikipedia.org/wiki/Body_mass_index">Wikipedia </a> for more 
+ * information. 
+ * @author Mehran Barzegar
+ *  
+ */
 package beginningJava;
 
 public class BMICalculator {
