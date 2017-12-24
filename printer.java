@@ -1,9 +1,12 @@
 /**
- * Created by me on 2017-12-21.
+ * Created by Mehran Barzegar on 2017-12-21.
+ * pluralsight tutorial
  */
 public class printer {
-    public boolean isOn;
-    public String modelNumber;
+   //access modifier
+
+    private boolean isOn;
+    private String modelNumber;
 
 //
 //    public void print() {
@@ -18,9 +21,10 @@ public class printer {
     public void print(){
         System.out.println(isOn);
         System.out.println(modelNumber);
+        print("I can call a private method from within another method");
     }
 
-    public void print(String text){
+    private void print(String text){
         System.out.println(text);
     }
     public String getModelNumber() {
