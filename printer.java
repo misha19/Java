@@ -10,6 +10,16 @@ public class printer {
 //        System.out.println(modelNumber);
 //    }
 
+    //constructor
+    public printer(boolean isOn, String modelNumber){
+        this.isOn = isOn;
+        this.modelNumber = modelNumber;
+    }
+    public void print(){
+        System.out.println(isOn);
+        System.out.println(modelNumber);
+    }
+
     public void print(String text){
         System.out.println(text);
     }
