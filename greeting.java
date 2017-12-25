@@ -14,8 +14,11 @@ public class greeting {
 //        String theModelNumber = myPrinter.getModelNumber();
 //        System.out.print(theModelNumber);
 
-        printer myPrinter = new printer(true, "ABMD");
-        myPrinter.print();
+        Machine machine = new printer(true, "ABMD");
+
+        machine.TurnOn();
+
+
 
     }
 
