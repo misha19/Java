@@ -14,8 +14,12 @@ public class greeting {
 //        String theModelNumber = myPrinter.getModelNumber();
 //        System.out.print(theModelNumber);
 
-        printer myPrinter = new printer(true, "ABMD");
-        myPrinter.print();
+      //  Machine machine = new printer(true, "ABMD");
+       Machine machine01 = new Machine(false);
+       // machine.TurnOn();
+       //The method from the Machine is now called
+        machine01.TurnOn();
+
 
     }
 
