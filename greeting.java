@@ -15,8 +15,11 @@ public class greeting {
 //        System.out.print(theModelNumber);
 
         printer myPrinter = new printer(true, "ABMD");
-        myPrinter.print();
+       myPrinter.print(2);
+       myPrinter.TurnOff();
+       myPrinter.print(1);
 
+        myPrinter.printColors();
     }
 
 }
